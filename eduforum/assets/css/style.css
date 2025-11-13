@@ -1,0 +1,21 @@
+/* EduForum styles - Instagram-inspired academic theme */
+:root{--edublue:#2563eb;--bg:#f5f7fb;--text:#111827;--muted:#6b7280}
+body{background:var(--bg);color:var(--text)}
+.navbar-brand strong{letter-spacing:.2px}
+.card{border:0}
+.post-card img{object-fit:cover}
+.btn-light{background:#f3f4f6}
+.rounded-4{border-radius:1rem!important}
+.object-fit-cover{object-fit:cover}
+/* Dark mode (simple toggle hook) */
+body.dark{background:#0b1220;color:#e5e7eb}
+body.dark .card{background:#0f172a;color:#e5e7eb}
+body.dark .navbar{background:#0f172a!important;border-color:#1f2937!important}
+body.dark .btn-light{background:#111827;color:#e5e7eb}
+/* Profile */
+.profile-header{background:linear-gradient(135deg,#1e3a8a, #2563eb); color:#fff; border-radius:1rem}
+.avatar-xl{width:96px;height:96px;object-fit:cover;border-radius:50%}
+/* Resource tags */
+.badge-category{background:#e0e7ff;color:#1e3a8a}
+/* Logo placeholder */
+.logo{font-weight:800;color:var(--edublue)}
